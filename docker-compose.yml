@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  server:
+    build: .
+    ports:
+      - '${SERVER_PORT}:${SERVER_PORT}'
+    volumes:
+      - .:/usr/src/app
+    environment:
+      - NODE_ENV=development
+      - SERVER_PORT=${SERVER_PORT}
+      - DATABASE_HOST=${DATABASE_HOST}
+      - DATABASE_NAME=${DATABASE_NAME}
+      - DATABASE_USERNAME=${DATABASE_USERNAME}
+      - DATABASE_PORT=${DATABASE_PORT}
+      - DATABASE_PASSWORD=${DATABASE_PASSWORD}
