@@ -2,6 +2,6 @@
 .idea
 
 package-lock.json
-
+src/db/drizzle
 dist/
 node_modules/
