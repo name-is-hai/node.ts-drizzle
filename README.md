@@ -6,7 +6,7 @@
   <img src="https://raw.githubusercontent.com/drizzle-team/drizzle-orm/fed7bde872d649056888a53be72726bd5b7cbb55/misc/readme/logo-github-sq-light.svg#gh-light-mode-only" />
 </div>
 
-# Post-User Relations Sample Project
+# Posts-Users Relations Sample Project using Drizzle ORM
 
 This project demonstrates how to create a simple application using Node.js, Express, and TypeScript, along with the Drizzle ORM, to manage relations between posts and users in a database.
 
