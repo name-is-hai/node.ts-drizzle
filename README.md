@@ -1,3 +1,11 @@
+![npm version](https://img.shields.io/badge/npm-v21.5.0-green)
+![express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+![typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/drizzle-team/drizzle-orm/fed7bde872d649056888a53be72726bd5b7cbb55/misc/readme/logo-github-sq-dark.svg#gh-dark-mode-only" />
+  <img src="https://raw.githubusercontent.com/drizzle-team/drizzle-orm/fed7bde872d649056888a53be72726bd5b7cbb55/misc/readme/logo-github-sq-light.svg#gh-light-mode-only" />
+</div>
+
 # Post-User Relations Sample Project
 
 This project demonstrates how to create a simple application using Node.js, Express, and TypeScript, along with the Drizzle ORM, to manage relations between posts and users in a database.
