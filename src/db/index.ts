@@ -17,4 +17,4 @@ const poolConnection = createPool({
     port: Number(process.env.DATABASE_PORT),
     database: String(process.env.DATABASE_NAME),
 });
-export const db: MySql2Database<typeof schema> = drizzle(poolConnection);
+export const db: MySql2Database<typeof schema> = drizzle(poolConnection, { schema, mode: "default" });

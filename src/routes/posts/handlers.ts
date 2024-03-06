@@ -4,8 +4,7 @@ import { NewPost, Post, insertPostSchema, posts } from "../../db/schema";
 import { eq } from "drizzle-orm";
 
 export const getPost = async (
-    req: Request, res: Response
-): Promise<Response> => {
+    req: Request, res: Response): Promise<Response> => {
     try {
         const { id } = req.params;
         const post = await db.query.posts.findFirst({
@@ -22,8 +21,7 @@ export const getPost = async (
 };
 
 export const getPosts = async (
-    req: Request, res: Response
-): Promise<Response> => {
+    req: Request, res: Response): Promise<Response> => {
     try {
         const allPosts: Post[] = await db.query.posts.findMany();
         return res.status(200).json(allPosts)
